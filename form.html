@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <h1>Enrollment Form</h1><br>
+    <form action="index.html">
+        <div>
+            <label for="studentname">Student name <span style="color: red;">*</span></label><br>
+            <input type="text" id="studentname" name="studentname" style="width: 26rem;"><br><br>
+        </div>
+        <div>
+            <label for="studentemail">Student email <span style="color: red;">*</span></label><br>
+            <input type="text" id="studentemail" name="studentemail" style="width: 26rem;"><br><br>
+        </div>
+        <div class="child1" style="display: flex; gap: 2rem;">
+            <div>
+                <label for="stdob">Student date of birth <span style="color: red;">*</span></label><br>
+                <input type="date" id="stdob" name="stdop">
+            </div>
+            <div>
+                <label for="GradeLevel">Grade Level<span style="color: red;">*</span></label><br>
+                <input list="Gradelevels" name="Gradelevel" style="width: 6rem;">
+                <datalist id="Gradelevels">
+                <option value="A"></option>
+                <option value="B"></option>
+                <option value="C"></option>
+                </datalist>
+            </div>
+            <div>
+                <label for="schyearandsemester">School Year & Semester<span style="color: red;">*</span></label><br>
+                <input list="schyearandsemesters" name="schyearandsemester" style="width: 8rem;">
+                <datalist id="schyearandsemesters">
+                <option value="2001 1st"></option>
+                <option value="2002 2nd"></option>
+                </datalist>
+            </div>
+        </div>
+        <br>
+        <label for="streetaddress">Street address<span style="color: red;">*</span></label><br>
+        <input type="text" id="streetaddress" name="address" style="width: 26rem;">
+    <div><br>
+        <label for="ASU">Apartment,suited,or unit #</label><br>
+        <input type="text" id="ASU" name="house" style="width: 26rem;">
+    </div><br>
+    <div class="child2" style="display: flex; gap: 2rem;">
+        <div>
+        <label for="city">City<span style="color: red;">*</span></label><br>
+        <input type="text" id="city" name="city" style="width: 13rem;">
+    </div>
+    <div>
+        <label for="State">State <span style="color: red;">*</span></label><br>
+        <input list="states" name="state" style="width: 6rem;">
+        <datalist id="states">
+        <option value="abia"></option>
+        <option value="adamawa"></option>
+        <option value="oyo"></option>
+        <option value="lagos"></option>
+        <option value="ekiti"></option>
+        <option value="Akure"></option>
+        </datalist>
+    </div>
+</div><br>
+<div style="display: flex; gap: 2rem;">
+    <div>
+    <label for="zipcode">Zip code <span style="color: red;" >*</span></label><br>
+    <input type="text" id="zipode" name="zipcode" style="width: 5rem;">
+    </div>
+    <div>
+        <lable for="phonenumber">Phone Number<span style="color: red;">*</span></lable><br>
+        <input type="tel" id="phonenumber" name="phonenumber" style="width: 15rem;">
+    </div>
+</div><br>
+    <div>
+        <label for="Emailaddress">Email Address<span style="color: red;">*</label><br>
+        <input type="email" id="email" name="Emailaddress" style="width: 26rem;">
+    </div>
+    </form><br>
+    <h4 style="background-color: rgb(183, 43, 226); width: 100%; height: 2rem; 
+    padding-top: 10px;  padding-left: 1rem; color: white; border-radius: 5px;">Home of record</h4>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1{ 
+    background-image: url(image/classroom.jpg);
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-left: 1rem;
+    width: 100%;
+    color: white;
+}
+label{
+    font-weight: 600;
+}
+input{
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 10px 15px;
+    width: 150px;
+    height: 10px;
+    outline: none;
+    margin-top: 4px;
+}
+form{
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+
+
+/* 
+.container{
+    position: relative;
+    color: white;
+    
+
+}
+.bottom-left{
+    position: absolute;
+    bottom: 1px;
+    left: 17px;
+}
+h1{
+    font-family: sans-serif;
+}
+
+.form-body{ padding: 0;
+    
+}
+.row{
+    display:flex
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px;
+}
+.child1{
+    flex-direction: column;
+    float: left;
+    margin-right: 10px;
+}
+.child3{
+    flex-direction: column;
+    float: left;
+    margin-right: 10px;
+}
+h4{padding: 5px;
+
+
+} */
